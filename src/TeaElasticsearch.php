@@ -5,7 +5,7 @@ namespace Takeatea\TeaThemeOptions;
 use Elastica\Client;
 use Elastica\Document;
 use Elastica\Exception\NotFoundException;
-use Elastica\Filter\Bool;
+use Elastica\Filter\BoolFilter;
 use Elastica\Filter\Term;
 use Elastica\Query;
 use Elastica\Query\QueryString;
@@ -901,7 +901,7 @@ class TeaElasticsearch
         $es_term->setTerm($type.'.parent', $parent);
 
         //Filter 'And'
-        $es_filter = new Bool();
+        $es_filter = new BoolFilter();
         $es_filter->addMust($es_term);
 
         //Add filter to the search object
