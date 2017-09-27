@@ -70,7 +70,7 @@ defined('OLZ_LOCAL')        or define('OLZ_LOCAL', get_bloginfo('language'));
 //The path
 defined('OLZ_PATH')         or define('OLZ_PATH', dirname(__FILE__));
 //The URI
-defined('OLZ_URI')          or define('OLZ_URI', get_template_directory_uri().'/vendor/crewstyle/olympus-zeus');
+defined('OLZ_URI')          or define('OLZ_URI', get_template_directory_uri().'/vendor/nicolassing/olympus-zeus');
 //The Twig cache folder
 defined('OLZ_CACHE')        or define('OLZ_CACHE', OLZ_PATH.'/../cache');
 
