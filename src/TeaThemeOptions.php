@@ -65,7 +65,7 @@ defined('TTO_HOME')         or define('TTO_HOME', get_option('home'));
 //The language blog
 defined('TTO_LOCAL')        or define('TTO_LOCAL', get_bloginfo('language'));
 //The URI
-defined('TTO_URI')          or define('TTO_URI', get_template_directory_uri().'/vendor/nicolassing/tea-theme-options');
+defined('TTO_URI')          or define('TTO_URI', get_template_directory_uri().'/vendor/nicolassing/olympus-zeus');
 //The path
 defined('TTO_PATH')         or define('TTO_PATH', dirname(__FILE__));
 //The wp-includes URI
